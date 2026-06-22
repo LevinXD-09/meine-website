@@ -12,7 +12,7 @@ header {
     padding: 60px 20px;
     text-align: center;
     color: #000000;
-    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 header h1 {
@@ -50,7 +50,7 @@ header p {
 .card {
     max-width: 900px;
     margin: 40px auto;
-    background: grey;
+    background: linear-gradient(135deg, #f9f9f9, #dcdcdc);
     padding: 25px;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
