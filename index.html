@@ -1,11 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
-    <title>Meine Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Hallo Welt!</h1>
-    <p>Meine erste Website mit GitHub Pages.</p>
+
+<!-- HEADER -->
+<header>
+    <div class="container">
+        <h1>Max Mustermann</h1>
+        <p>Schüler | Entwickler | Bewerber</p>
+
+        <div class="buttons">
+            <a href="#lebenslauf">Lebenslauf</a>
+            <a href="#anschreiben">Anschreiben</a>
+            <a href="#zeugnisse">Zeugnisse</a>
+        </div>
+    </div>
+</header>
+
+<!-- ÜBER MICH -->
+<section class="card">
+    <h2>Über mich</h2>
+    <p>
+        Hallo! Ich bin Max, interessiere mich für Technik, Programmierung und Webentwicklung.
+        Diese Website zeigt meinen Lebenslauf, mein Anschreiben und meine Zeugnisse.
+    </p>
+</section>
+
+<!-- LEBENSLAUF -->
+<section id="lebenslauf" class="card">
+    <h2>Lebenslauf</h2>
+
+    <ul>
+        <li><strong>2018 - heute:</strong> Schule (Beispielschule)</li>
+        <li><strong>2024:</strong> Praktikum im IT-Bereich</li>
+        <li><strong>Skills:</strong> HTML, CSS, ein bisschen JavaScript</li>
+    </ul>
+</section>
+
+<!-- ANSCHREIBEN -->
+<section id="anschreiben" class="card">
+    <h2>Anschreiben</h2>
+
+    <p>
+        Sehr geehrte Damen und Herren,<br><br>
+
+        hiermit bewerbe ich mich um eine Stelle / ein Praktikum im Bereich IT.
+        Ich interessiere mich sehr für Webentwicklung und arbeite gerne kreativ und strukturiert.<br><br>
+
+        Ich freue mich über eine Rückmeldung.<br><br>
+
+        Mit freundlichen Grüßen<br>
+        Max Mustermann
+    </p>
+</section>
+
+<!-- ZEUGNISSE -->
+<section id="zeugnisse" class="card">
+    <h2>Zeugnisse</h2>
+
+    <p>Hier kannst du deine Zeugnisse als Bilder einfügen:</p>
+
+    <div class="gallery">
+        <img src="zeugnis1.jpg" alt="Zeugnis 1">
+        <img src="zeugnis2.jpg" alt="Zeugnis 2">
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Max Mustermann | Meine Portfolio Website</p>
+</footer>
+
 </body>
 </html>
