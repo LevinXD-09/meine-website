@@ -11,6 +11,7 @@ header {
     background: linear-gradient(135deg, #f9f9f9, #dcdcdc);
     padding: 60px 20px;
     text-align: center;
+    color: #000000;
 }
 
 header h1 {
@@ -32,7 +33,7 @@ header p {
     display: inline-block;
     margin: 10px;
     padding: 10px 20px;
-    background: black;
+    background: grey;
     color: white;
     text-decoration: none;
     border-radius: 10px;
