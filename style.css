@@ -8,13 +8,9 @@ body {
 
 /* Header */
 header {
-    background-image: url("file:///C:/Users/levin/Downloads/Download%20Low%20poly%20banner%20design%20%20for%20free.jpg");
-    background-size: cover;        /* füllt den Bereich */
-    background-position: center;   /* zentriert das Bild */
-    background-repeat: no-repeat;  /* kein Kacheln */
+    background: linear-gradient(135deg, #f9f9f9, #dcdcdc);
     padding: 60px 20px;
     text-align: center;
-    color: #000;
 }
 
 header h1 {
