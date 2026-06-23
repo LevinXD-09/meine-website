@@ -74,10 +74,11 @@ ul {
 }
 
 .gallery img {
-    width: 850px;
+    width: 800px;
     border-radius: 10px;
     border: 2px solid #333;
     transition: 0.3s;
+    img-align: center; 
 }
 
 .gallery img:hover {
