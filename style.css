@@ -75,7 +75,7 @@ ul {
 }
 
 .gallery img {
-    max-width: 100%;
+    max-width: 130%;
     height: auto;
     border-radius: 10px;
     border: 2px solid #333;
