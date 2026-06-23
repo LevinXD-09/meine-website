@@ -84,6 +84,24 @@ ul {
     transform: scale(1.05);
 }
 
+/* Lebenslauf */
+.lebenslauf {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap:
+}
+
+.lebenslauf img {
+    width: 900px;
+    border-radius: 10px;
+    border: 2px solid #333;
+    transition: 0.3s;
+}
+
+.lebenslauf img:hover {
+    transform: scale(1.05);
+}
+
 /* Footer */
 footer {
     text-align: center;
